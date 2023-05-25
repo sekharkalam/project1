@@ -53,7 +53,10 @@
     left: 50%;
 }
 
-
+.list-stylesss {
+    border-radius: 40px;
+    font-size: 70px;
+}
 
 .address {
     margin-left: 20px;
@@ -110,16 +113,17 @@
     border: solid;
     height: 90px;
     border-radius: 70px;
-    margin: 10px;
     border-color: #032149;
     border-width: 4px;
     padding-top: 13px;
     padding-bottom: 14px;
     padding-right: 18px;
-    margin-left: 40px;
+    margin: 10px;
     padding-left: 20px;
 
 }
+
+
 
 .icon {
     color: #032149;
@@ -138,6 +142,7 @@
 .icon-names {
     font-size: 15px;
     color: #032149;
+
 }
 
 .year1 {
@@ -170,4 +175,17 @@
 .college-details {
     font-size: 12px;
 
+}
+
+.flex-boxes {
+    margin-left: 10px;
+
+}
+
+@media (min-width:600px) {
+    .flex-boxes {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
